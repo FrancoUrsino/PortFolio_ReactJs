@@ -6,7 +6,7 @@ import Eficap from "./work/eficap.png"
 // import VayAdmin from "./work/VayAdministracion.png"
 import CarreraFlex from "./certificados/carreraReactFlex.png"
 import Carrera from "./certificados/FrontEndDeveloper.png"
-import DesarrolloWeb from "./certificados/Desarrollo Web.png"
+import DesarrolloWeb from "./certificados/DesarrolloWeb.png"
 import ReactJs from "./certificados/ReactJS.png"
 import JavaScript from "./certificados/Javascript.png"
 
