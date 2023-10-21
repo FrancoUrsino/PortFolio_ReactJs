@@ -5,6 +5,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FiInstagram, FiMail, FiSend } from "react-icons/fi";
 import CV from '../../assets/FrancoUrsinoCV.pdf';
 import { bannerImg } from "../../assets/index";
+import { Link } from "react-router-dom";
 
 const Left = () => {
   const [text] = useTypewriter({
@@ -32,37 +33,37 @@ const Left = () => {
             <Cursor cursorBlinking="false" cursorStyle="|" />
           </p>
           <div className="flex justify-center gap-2 mt-2">
-            <a className="hover:text-designColor duration-300 cursor-pointer text-xl" href="https://github.com/FrancoUrsino" target="blank">
+            <Link className="hover:text-designColor duration-300 cursor-pointer text-xl" to="https://github.com/FrancoUrsino" target="blank">
               <FaGithub />
-            </a>
-            <a className="hover:text-designColor duration-300 cursor-pointer text-xl"  href="https://www.linkedin.com/in/francoursino/" target="blank">
+            </Link>
+            <Link className="hover:text-designColor duration-300 cursor-pointer text-xl"  to="https://www.linkedin.com/in/francoursino/" target="blank">
               <FaLinkedin />
-            </a>
-            <a className="hover:text-designColor duration-300 cursor-pointer text-xl"  href="https://www.facebook.com/profile.php?id=61550736414708" target="blank">
+            </Link>
+            <Link className="hover:text-designColor duration-300 cursor-pointer text-xl"  to="https://www.facebook.com/profile.php?id=61550736414708" target="blank">
               <BsFacebook />
-            </a>
-            <a className="hover:text-designColor duration-300 cursor-pointer text-xl"  href="https://www.instagram.com/frankito.eze/" target="blank">
+            </Link>
+            <Link className="hover:text-designColor duration-300 cursor-pointer text-xl"  to="https://www.instagram.com/frankito.eze/" target="blank">
               <FiInstagram />
-            </a>
-            <a className="hover:text-designColor duration-300 cursor-pointer text-xl"  href="mailto:francooursinoo@gmail.com" target="blank">
+            </Link>
+            <Link className="hover:text-designColor duration-300 cursor-pointer text-xl"  to="mailto:francooursinoo@gmail.com" target="blank">
               <FiMail />
-            </a>
+            </Link>
           </div>
         </div>
         <div className="flex h-14">
-          <a
-            href={CV}
+          <Link
+            to={CV}
             target="_blank"
-            className="w-1/2 border-t-[1px] borderRight border-t-zinc-800 text-sm tracking-wide uppercase  gap-2 hover:text-designColor duration-300"
+            className="w-full border-t-[1px] borderRight border-t-zinc-800 text-sm tracking-wide uppercase  gap-2 hover:text-designColor duration-300"
             rel="noreferrer"
           >
             <button className="w-full h-full flex justify-center items-center gap-2">
               Descargar CV <BsCloudLightningFill />
             </button>
-          </a>
-          <button className="w-1/2 border-t-[1px] border-t-zinc-800 text-sm tracking-wide uppercase flex justify-center items-center gap-2 hover:text-designColor duration-300">
+          </Link>
+          {/* <button className="w-1/2 border-t-[1px] border-t-zinc-800 text-sm tracking-wide uppercase flex justify-center items-center gap-2 hover:text-designColor duration-300">
             Contactarme <FiSend />
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

@@ -1,33 +1,25 @@
 import React from 'react'
 import SidenavTitle from './SidenavTitle';
+import { Link } from 'react-router-dom';
 
 const Sidenav = () => {
   return (
     <div className="px-7 py-4">
       <SidenavTitle title="R" subTitle="edes" />
       <ul>
-        <li className="sidenavLi"><a href={""} target="_blank">Linkedin</a></li>
-        <li className="sidenavLi"><a href={""} target="_blank">Facebook</a></li>
-        <li className="sidenavLi"><a href={""} target="_blank">Instagram</a></li>
-        <li className="sidenavLi"><a href={""} target="_blank">GitHub</a></li>
+        <li className="sidenavLi"><Link to={"https://www.linkedin.com/in/francoursino/"} target="_blank">Linkedin</Link></li>
+        <li className="sidenavLi"><Link to={"https://www.facebook.com/profile.php?id=61550736414708"} target="_blank">Facebook</Link></li>
+        <li className="sidenavLi"><Link to={"https://www.instagram.com/frankito.eze/"} target="_blank">Instagram</Link></li>
+        <li className="sidenavLi"><Link to={"https://github.com/FrancoUrsino"} target="_blank">GitHub</Link></li>
       </ul>
       <SidenavTitle title="P" subTitle="royectos" />
       <ul>
-      <li className="sidenavLi"><a href={""} target="_blank">Vay Administración</a></li>
-      <li className="sidenavLi"><a href={""} target="_blank">Eficap</a></li>
-      <li className="sidenavLi"><a href={""} target="_blank">Extreme Combat Shop</a></li>
-      <li className="sidenavLi"><a href={""} target="_blank">Discover Arg</a></li>
-      <li className="sidenavLi"><a href={""} target="_blank">Planes en Pareja</a></li>
+      <li className="sidenavLi"><Link to={""} target="_blank">Vay Administración</Link></li>
+      <li className="sidenavLi"><Link to={"https://github.com/FrancoUrsino/eficap"} target="_blank">Eficap</Link></li>
+      <li className="sidenavLi"><Link to={"https://github.com/FrancoUrsino/ProyectoFinal_Ursino"} target="_blank">Extreme Combat Shop</Link></li>
+      <li className="sidenavLi"><Link to={"https://github.com/FrancoUrsino/PF-js_URSINO"} target="_blank">Discover Arg</Link></li>
+      <li className="sidenavLi"><Link to={"https://github.com/FrancoUrsino/PF-Ursino"} target="_blank">Planes en Pareja</Link></li>
       </ul>
-      {/* <SidenavTitle title="C" subTitle="ertificados" />
-      <ul>
-        <li className="sidenavLi">UI & UX Conference at Lviv 2022</li>
-        <li className="sidenavLi">How to become a creative designer</li>
-        <li className="sidenavLi">
-          Designers thoughts about mobile UI templates
-        </li>
-        <li className="sidenavLi">Designer Conference at Florida, USA 2020</li>
-      </ul> */}
       <SidenavTitle title="C" subTitle="ontactame" />
       <ul>
         <li className="sidenavLi">+54 1138460917</li>

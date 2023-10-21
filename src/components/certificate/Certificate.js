@@ -1,6 +1,6 @@
 import React from "react";
 import Title from "../home/Title";
-import { CarreraFlex, Carrera, DesarrolloWeb, ReactJs, JavaScript } from "../../assets";
+import { CarreraFlex, Carrera, DesarrolloWeb, ReactJs, JavaScript, Python } from "../../assets";
 import BlogCard from "./CertificateCard";
 
 const Blog = () => {
@@ -41,18 +41,12 @@ const Blog = () => {
             subTitle="Javascript"
             category="Curso | CODERHOUSE"
           />
-          {/* <BlogCard
-            image={blogImgOne}
-            title="September 16, 2020"
-            subTitle="UI & UX Conference at Lviv 2022"
-            category="Travel"
-          />
           <BlogCard
-            image={blogImgThree}
-            title="September 16, 2020"
-            subTitle="UI & UX Conference at Lviv 2022"
-            category="Travel"
-          /> */}
+            image={Python}
+            title="Febrero 2023"
+            subTitle="Python"
+            category="Curso | UNLU (universidad nacional de lujan)"
+          />
         </div>
       </div>
     </div>

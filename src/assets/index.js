@@ -9,6 +9,7 @@ import Carrera from "./certificados/FrontEndDeveloper.png"
 import DesarrolloWeb from "./certificados/DesarrolloWeb.png"
 import ReactJs from "./certificados/ReactJS.png"
 import JavaScript from "./certificados/Javascript.png"
+import Python from "./certificados/Python.png"
 
 
 export { 
@@ -22,4 +23,5 @@ export {
     DesarrolloWeb,
     ReactJs,
     JavaScript,
+    Python,
 };

@@ -21,8 +21,8 @@ const Projects = () => {
             image={Eficap}
           />
           <ProjectsCard
-            url={"https://github.com/FrancoUrsino/ProyectoFinal_Ursino"}
-            title="Mobile Application"
+            url={"https://github.com/FrancoUrsino/PF-js_URSINO"}
+            title="Disc.over Arg"
             category="Diseño y programación"
             image={DiscoverArg}
           />
@@ -30,14 +30,14 @@ const Projects = () => {
         <div className="px-6">
 
           <ProjectsCard
-            url={"https://github.com/FrancoUrsino/PF-js_URSINO"}
-            title="Infinity Logo"
+            url={"https://github.com/FrancoUrsino/ProyectoFinal_Ursino"}
+            title="Extreme Combat Shop"
             category="Diseño y programación"
             image={ExtremeShop}
           />
           <ProjectsCard
             url={"https://github.com/FrancoUrsino/PF-Ursino"}
-            title="Responsive website"
+            title="Planes en Pareja"
             category="Diseño y programación"
             image={PlanesPareja}
           />
