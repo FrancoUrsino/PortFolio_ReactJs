@@ -13,7 +13,7 @@ const Education = () => {
           badge=""
           title="Santander Rio (Entidad bancaria)"
           subTitle="Empleado"
-          des="Lorem ipsum dolor sit amet,consectetur adipisicing elit. Dolorum, itaque ipsa quae!"
+          des="Actualimente me encuentro en el puesto de empleado en call center. Relizo multiples tareas ya que estoy como backup de equipo por mis conocimientos ganados en capacitaciones del sistema SalesForce, también capacito a los operadores para que puedan realizar sus tareas con mayor fluidez"
         />
         <ResumeCard
           badge="Sep 2023 - Nov 2023"

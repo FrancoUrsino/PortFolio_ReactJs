@@ -6,7 +6,7 @@ import ProjectsCard from "./ProjectsCard";
 const Projects = () => {
   return (
     <div>
-      <Title title="Recent" subTitle="Projects" />
+      <Title title="Proyectos" subTitle="Recientes" />
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 lgl:gap-10">
         <div className="px-6">
           {/* <ProjectsCard

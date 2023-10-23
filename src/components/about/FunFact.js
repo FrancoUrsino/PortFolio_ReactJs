@@ -6,10 +6,10 @@ import FunFactCard from "./FunFactCard";
 
 const FunFact = () => {
   return (
-    <div className="px-0 grid grid-cols-2 md:grid-cols-3 pb-10">
+    <div className="px-0 grid grid-cols-1 md:grid-cols-3 pb-10">
       <FunFactCard icon={<BsTrophyFill />} des="7 certificados" />
-      <FunFactCard icon={<SiAntdesign />} des="6 proyectos finalizados" />
-      <FunFactCard icon={<BiCodeAlt />} des="100 hours of coding" />
+      <FunFactCard icon={<SiAntdesign />} des="+6 años de experiencia laboral" />
+      <FunFactCard icon={<BiCodeAlt />} des="5 proyectos finalizados" />
     </div>
   );
 };
