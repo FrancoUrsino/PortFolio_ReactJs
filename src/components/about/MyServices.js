@@ -12,18 +12,18 @@ const MyServices = () => {
         <ServicesCard
           icons={<BiCodeAlt />}
           title="Web Development"
-          subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
+          subTitle="Actualmente realizo los sitios webs en React.js con uso de buenas prácticas y sintaxsis inclusiva para un mejor rendimiento"
         />
         <ServicesCard
           icons={<SiAntdesign />}
           title="Web Design"
-          subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
+          subTitle="Si bien no tengo certificados de diseño, pienso en cómo puede al usuario quedarle todo cómodo y con una bonita interfaz"
         />
       </div>
       <ServicesCard
         icons={<FaAppStoreIos />}
         title="SEO"
-        subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
+        subTitle="Lo que es el seo de las webs que realizo, chequeo que todo esté correcto y de la manera más eficiente posible para posicionar estas webs en lo más alto"
       />
     </div>
   );

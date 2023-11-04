@@ -1,4 +1,4 @@
-import bannerImg from "./bannerImg.jpeg";
+import me from "./me.jpeg";
 import DiscoverArg from "./work/discoverArg.png"
 import ExtremeShop from "./work/ExtremeShop.png"
 import PlanesPareja from "./work/PlanesenPareja.png"
@@ -13,7 +13,7 @@ import Python from "./certificados/Python.png"
 
 
 export { 
-    bannerImg,
+    me,
     DiscoverArg,
     ExtremeShop,
     PlanesPareja,

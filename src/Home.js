@@ -8,18 +8,23 @@ import Left from "./components/home/Left";
 import About from "./components/about/About";
 import Resume from "./components/resume/Resume";
 import Projects from "./components/projects/Projects";
-import Blog from "./components/certificate/Certificate";
+import Certificate from "./components/certificate/Certificate";
 import Contact from "./components/contact/Contact";
 import Sidenav from "./components/home/sidenav/Sidenav";
+import { useTranslation } from "react-i18next";
+
 
 const Home = () => {
   const [about, setAbout] = useState(true);
   const [resume, setResume] = useState(false);
   const [projects, setProjects] = useState(false);
-  const [blog, setBlog] = useState(false);
+  const [certificates, setCertificates] = useState(false);
   const [contact, setContact] = useState(false);
   const [sidenav, setSidenav] = useState(false);
   const ref = useRef();
+  const {t} = useTranslation(
+
+  )
 
   useEffect(() => {
     document.body.addEventListener("click", (e) => {
@@ -76,7 +81,7 @@ const Home = () => {
               setAbout(true) &
               setResume(false) &
               setProjects(false) &
-              setBlog(false) &
+              setCertificates(false) &
               setContact(false)
             }
             className={`${
@@ -88,7 +93,7 @@ const Home = () => {
           >
             <FaUser />
             <span className="text-black font-medium text-xs uppercase bg-designColor px-4 py-[1px] rounded-xl absolute left-0 translate-x-8 group-hover:translate-x-12 opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
-              Acerca de
+              {t("about")}
             </span>
           </span>
           {/* Resume Icon */}
@@ -97,7 +102,7 @@ const Home = () => {
               setAbout(false) &
               setResume(true) &
               setProjects(false) &
-              setBlog(false) &
+              setCertificates(false) &
               setContact(false)
             }
             className={`${
@@ -117,7 +122,7 @@ const Home = () => {
               setAbout(false) &
               setResume(false) &
               setProjects(true) &
-              setBlog(false) &
+              setCertificates(false) &
               setContact(false)
             }
             className={`${
@@ -137,11 +142,11 @@ const Home = () => {
               setAbout(false) &
               setResume(false) &
               setProjects(false) &
-              setBlog(true) &
+              setCertificates(true) &
               setContact(false)
             }
             className={`${
-              blog
+              certificates
                 ? "text-designColor"
                 : "w-full h-6 text-textColor text-xl flex items-center justify-center hover:text-designColor duration-300 cursor-pointer relative group"
             } w-full h-6 text-xl flex items-center justify-center hover:text-designColor duration-300 cursor-pointer relative group`}
@@ -157,7 +162,7 @@ const Home = () => {
               setAbout(false) &
               setResume(false) &
               setProjects(false) &
-              setBlog(false) &
+              setCertificates(false) &
               setContact(true)
             }
             className={`${
@@ -185,7 +190,7 @@ const Home = () => {
             <About />
             <Resume />
             <Projects />
-            <Blog />
+            <Certificate />
             <Contact />
           </div>
           {/* ======================== Smaller device content End ========================== */}
@@ -218,13 +223,13 @@ const Home = () => {
                 <Projects />
               </motion.div>
             )}
-            {blog && (
+            {certificates && (
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5 }}
               >
-                <Blog />
+                <Certificate />
               </motion.div>
             )}
             {contact && (

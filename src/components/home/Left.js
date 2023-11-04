@@ -4,7 +4,7 @@ import { BsCloudLightningFill, BsFacebook } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FiInstagram, FiMail, FiSend } from "react-icons/fi";
 import CV from '../../assets/FrancoUrsinoCV.pdf';
-import { bannerImg } from "../../assets/index";
+import { me } from "../../assets/index";
 import { Link } from "react-router-dom";
 
 const Left = () => {
@@ -20,9 +20,9 @@ const Left = () => {
       <div className="w-full h-3/5">
         <img
           className="w-full h-full object-cover rounded-2xl"
-          src={bannerImg}
+          src={me}
           loading="priority"
-          alt="bannerImage"
+          alt="me"
         />
       </div>
       <div className="w-full h-2/5 flex flex-col justify-between border-t-0 rounded-bl-xl rounded-br-xl">
