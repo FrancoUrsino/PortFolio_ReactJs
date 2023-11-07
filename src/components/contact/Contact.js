@@ -59,7 +59,7 @@ const Contact = () => {
         message: messages,
       });
       setSuccessMsg(
-        `{t("clientMessage")}`
+        t("hi")+ `${clientName}`+t("clientMessage")
       );
       setClientName("");
       setEmail("");

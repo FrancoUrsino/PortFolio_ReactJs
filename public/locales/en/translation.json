@@ -42,7 +42,8 @@
   "courseCategoryCarrer": "Degree Carrer",
   "courseCategoryCourse": "Course",
 
-  "clientMessage": "`Hi ${clientName}, Your message was sent successfully, thank you for your time!`",
+  "hi": "Hi ",
+  "clientMessage": ", your message was sent successfully, thank you for your time!",
   "get": "Get",
   "inTouch": "in Touch",
   "contactMe": "Contact Me",

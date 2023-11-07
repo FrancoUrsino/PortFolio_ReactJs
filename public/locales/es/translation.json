@@ -41,7 +41,8 @@
   "courseCategoryCarrer": "Carrera",
   "courseCategoryCourse": "Curso",
 
-  "clientMessage": "`Hola ${clientName}, Tu mensaje fue enviado exitosamente, gracias por tu tiempo!`",
+  "hi": "Hola ",
+  "clientMessage": ", tu mensaje fue enviado exitosamente, gracias por tu tiempo!",
   "get": "Ponerse",
   "inTouch": "en contacto",
   "contactMe": "Contactame",
