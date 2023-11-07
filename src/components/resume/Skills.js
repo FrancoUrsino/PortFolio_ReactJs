@@ -3,39 +3,42 @@ import { FaFlag } from "react-icons/fa";
 import { BiCodeAlt } from "react-icons/bi";
 import { IoIosPaper } from "react-icons/io";
 import ResumeTitle from "./ResumeTitle";
+import { useTranslation } from "react-i18next";
 
 const Skills = () => {
+  const {t} = useTranslation();
+
   return (
     <div className="w-full grid grid-cols-9 gap-10 lgl:gap-0 px-6">
       {/* =============== Design and Languages Start here =================== */}
       <div className="col-span-9 md:col-span-4">
-        <ResumeTitle title="Soft SKills" icon={<IoIosPaper />} />
+        <ResumeTitle title={t("soft")} icon={<IoIosPaper />} />
         {/* web Development */}
         <div className="py-4">
           <div className="py-3 border-b-[1px] border-zinc-800">
-            <p className="text-base text-textColor py-2.5 -mb-1.5 uppercase"><span className="text-designColor text-lg">|</span> Trabajo en equipo </p>
-            <p className="text-base text-textColor py-2.5 -mb-1.5 uppercase"><span className="text-designColor text-lg">|</span> Resolución de Problemas y conflictos</p>
-            <p className="text-base text-textColor py-2.5 -mb-1.5 uppercase"><span className="text-designColor text-lg">|</span> Responsabilidad</p>
-            <p className="text-base text-textColor py-2.5 -mb-1.5 uppercase"><span className="text-designColor text-lg">|</span> Liderazgo</p>
-            <p className="text-base text-textColor py-2.5 -mb-1.5 uppercase"><span className="text-designColor text-lg">|</span> Proactivo</p>
-            <p className="text-base text-textColor py-2.5 -mb-1.5 uppercase"><span className="text-designColor text-lg">|</span> AFRONTAR PROBLEMÁTICAS</p>
-            <p className="text-base text-textColor py-2.5 -mb-1.5 uppercase"><span className="text-designColor text-lg">|</span> COMUNICACIÓN ACTIVA</p>
-            <p className="text-base text-textColor py-2.5 -mb-1.5 uppercase"><span className="text-designColor text-lg">|</span> ADAPTABILIDAD</p>
+            <p className="text-base text-textColor py-2.5 -mb-1.5 uppercase"><span className="text-designColor text-lg">|</span>{t("softSkill1")}</p>
+            <p className="text-base text-textColor py-2.5 -mb-1.5 uppercase"><span className="text-designColor text-lg">|</span>{t("softSkill2")}</p>
+            <p className="text-base text-textColor py-2.5 -mb-1.5 uppercase"><span className="text-designColor text-lg">|</span>{t("softSkill3")}</p>
+            <p className="text-base text-textColor py-2.5 -mb-1.5 uppercase"><span className="text-designColor text-lg">|</span>{t("softSkill4")}</p>
+            <p className="text-base text-textColor py-2.5 -mb-1.5 uppercase"><span className="text-designColor text-lg">|</span>{t("softSkill5")}</p>
+            <p className="text-base text-textColor py-2.5 -mb-1.5 uppercase"><span className="text-designColor text-lg">|</span>{t("softSkill6")}</p>
+            <p className="text-base text-textColor py-2.5 -mb-1.5 uppercase"><span className="text-designColor text-lg">|</span>{t("softSkill7")}</p>
+            <p className="text-base text-textColor py-2.5 -mb-1.5 uppercase"><span className="text-designColor text-lg">|</span>{t("softSkill8")}</p>
           </div>
         </div>
         <div className="col-span-9 md:col-span-4">
-        <ResumeTitle title="Idiomas" icon={<FaFlag />} />
+        <ResumeTitle title={t("lang")} icon={<FaFlag />} />
         {/* English */}
         <div className="py-4">
           <div className="py-3 border-b-[1px] border-zinc-800">
-            <p className="text-base text-textColor -mb-1.5">Ingles</p>
+            <p className="text-base text-textColor -mb-1.5">{t("en")}</p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
               <span className="w-[30%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
           </div>
           {/* Spanish */}
           <div className="py-3 border-b-[1px] border-zinc-800">
-            <p className="text-base text-textColor -mb-1.5">Español</p>
+            <p className="text-base text-textColor -mb-1.5">{t("es")}</p>
             <span className="w-full bg-zinc-600 h-1 inline-flex relative">
               <span className="w-[100%] h-full absolute top-0 left-0 bg-designColor"></span>
             </span>
@@ -51,7 +54,7 @@ const Skills = () => {
 
       {/* =============== Coading Start here ==================== */}
       <div className="col-span-9 md:col-span-4">
-        <ResumeTitle title="Hard Skills" icon={<BiCodeAlt />} />
+        <ResumeTitle title={t("hard")} icon={<BiCodeAlt />} />
         {/* web Design */}
         <div className="py-4">
           <div className="py-3 border-b-[1px] border-zinc-800">

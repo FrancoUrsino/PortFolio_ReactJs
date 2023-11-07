@@ -1,6 +1,6 @@
 import React from "react";
 
-const BlogCard = ({ image, title, subTitle, category }) => {
+const CertificateCard = ({ image, title, subTitle, category }) => {
   return (
     <div className="py-6 flex flex-col gap-2 items-center justify-center border-b-[1px] border-b-zinc-800 group">
       <div className="w-full h-full mb-2 overflow-hidden relative cursor-pointer">
@@ -23,4 +23,4 @@ const BlogCard = ({ image, title, subTitle, category }) => {
   );
 };
 
-export default BlogCard;
+export default CertificateCard;

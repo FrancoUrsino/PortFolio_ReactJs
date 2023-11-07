@@ -3,40 +3,42 @@ import ResumeTitle from "./ResumeTitle";
 import { MdWork } from "react-icons/md";
 import { GiGraduateCap } from "react-icons/gi";
 import ResumeCard from "./ResumeCard";
+import { useTranslation } from "react-i18next";
 
 const Education = () => {
+  const {t} = useTranslation();
+
   return (
     <div className="w-full grid grid-cols-9 px-6">
       <div className="col-span-9 md:col-span-4">
-        <ResumeTitle title="Experiencia laboral" icon={<MdWork />} />
+        <ResumeTitle title={t("laboralExpTitle")} icon={<MdWork />} />
         <ResumeCard
           badge=""
-          title="Santander Rio (Entidad bancaria)"
-          subTitle="Empleado"
-          des="Actualimente me encuentro en el puesto de empleado en call center. Relizo multiples tareas ya que estoy como backup de equipo por mis conocimientos ganados en capacitaciones del sistema SalesForce, también capacito a los operadores para que puedan realizar sus tareas con mayor fluidez"
+          title={"Santander Rio"+t("bankEnt")}
+          subTitle={t("employee")}
+          des={t("santanderDes")}
         />
         <ResumeCard
           badge="Sep 2023 - Nov 2023"
-          title="BA Multiplica (Programa del gobierno)"
+          title={"BA Multiplica"+t("BAM")}
           subTitle="Profesor"
-          des="Capacitación a personas de diferentes para conocimientos tanto de habilidades blandas como habilidades duras de:
-          formación en linkedin y búsqueda de empleo, microsoft excel, análisis de datos, microsoft powerpoint, desarrollo del pensamiento creativo, desarrollo web (HTML, CSS Y JAVASCRIPT) y pensamiento lógico formal"
+          des={t("bamDes")}
         />
         <ResumeCard
-          badge="Dic 2022 - Ene 2023"
-          title="Eficap (Diseño y desarrollo de sitio web)"
-          subTitle="Desarrollador web"
-          des="Sitio web adaptable a múltiples dispositivos realizado con HTML, SCSS, JS. Reuniones semanales para que el cliente pudiera ver como iba quedando el diseño de la web, además de escucha activa para la conformidad del mismo"
+          badge={"Dic 2022 - "+t("jan")+" 2023"}
+          title={"Eficap"+t("eficapWeb")}
+          subTitle={t("eficap")}
+          des={t("eficapDes")}
         />
       </div>
       <div className="w-full h-full hidden lgl:flex justify-center items-center">
         <span className="w-[1px] h-full bg-zinc-800 inline-flex"></span>
       </div>
       <div className="col-span-9 md:col-span-4">
-        <ResumeTitle title="Educación" icon={<GiGraduateCap />} />
+        <ResumeTitle title={t("education")} icon={<GiGraduateCap />} />
         <ResumeCard
           badge="2023 - Actualidad"
-          title="Tecnicatura universitaria en tecnologias web"
+          title={t("uno")}
           subTitle="UNO (universidad nacional del oeste)"
           // des="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, itaque ipsa quae!"
         />

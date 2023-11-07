@@ -3,15 +3,18 @@ import Title from "../home/Title";
 import AboutMe from "./AboutMe";
 import FunFact from "./FunFact";
 import MyServices from "./MyServices";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const {t} = useTranslation()
+
   return (
     <section id="about" className="w-full">
-      <Title title="Acerca" subTitle="de mi" />
+      <Title title={t("title1")} subTitle={t("subTitle1")} />
       <AboutMe />
-      <Title title="Mis" subTitle="servicios" />
+      <Title title={t("title2")} subTitle={t("subTitle2")} />
       <MyServices />
-      <Title title="Otros" subTitle="datos" />
+      <Title title={t("title3")} subTitle={t("subTitle3")} />
       <FunFact />
     </section>
   );

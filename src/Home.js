@@ -22,9 +22,8 @@ const Home = () => {
   const [contact, setContact] = useState(false);
   const [sidenav, setSidenav] = useState(false);
   const ref = useRef();
-  const {t} = useTranslation(
+  const {t} = useTranslation();
 
-  )
 
   useEffect(() => {
     document.body.addEventListener("click", (e) => {
@@ -113,7 +112,7 @@ const Home = () => {
           >
             <IoIosPaper />
             <span className="text-black font-medium text-xs uppercase bg-designColor px-4 py-[1px] rounded-xl absolute left-0 translate-x-8 group-hover:translate-x-12 opacity-0 group-hover:opacity-100 transition-all duration-300 z-20">
-              Formación
+              {t("formation")}
             </span>
           </span>
           {/* Project Icon */}

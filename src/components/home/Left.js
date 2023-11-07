@@ -2,14 +2,17 @@ import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { BsCloudLightningFill, BsFacebook } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { FiInstagram, FiMail, FiSend } from "react-icons/fi";
+import { FiInstagram, FiMail } from "react-icons/fi";
 import CV from '../../assets/FrancoUrsinoCV.pdf';
 import { me } from "../../assets/index";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const Left = () => {
+  const {t} = useTranslation();
+
   const [text] = useTypewriter({
-    words: ["Diseñador Web", "Front End Developer"],
+    words: [t("writerWord1"),t("writerWord2")],
     loop: true,
     typeSpeed: 50,
     deleteSpeed: 80,
@@ -22,7 +25,7 @@ const Left = () => {
           className="w-full h-full object-cover rounded-2xl"
           src={me}
           loading="priority"
-          alt="me"
+          alt="Foto mía"
         />
       </div>
       <div className="w-full h-2/5 flex flex-col justify-between border-t-0 rounded-bl-xl rounded-br-xl">
@@ -58,12 +61,9 @@ const Left = () => {
             rel="noreferrer"
           >
             <button className="w-full h-full flex justify-center items-center gap-2">
-              Descargar CV <BsCloudLightningFill />
+              {t("resume")} <BsCloudLightningFill />
             </button>
           </Link>
-          {/* <button className="w-1/2 border-t-[1px] border-t-zinc-800 text-sm tracking-wide uppercase flex justify-center items-center gap-2 hover:text-designColor duration-300">
-            Contactarme <FiSend />
-          </button> */}
         </div>
       </div>
     </div>

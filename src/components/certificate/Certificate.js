@@ -2,50 +2,53 @@ import React from "react";
 import Title from "../home/Title";
 import { CarreraFlex, Carrera, DesarrolloWeb, ReactJs, JavaScript, Python } from "../../assets";
 import BlogCard from "./CertificateCard";
+import { useTranslation } from "react-i18next";
 
 const Blog = () => {
+  const {t} = useTranslation();
+
   return (
     <div>
-      <Title title="Certificados" subTitle="Obtenidos" />
+      <Title title={t("certificateTitle")} subTitle={t("certificateSubTitle")} />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lgl:gap-10">
         <div className="px-6">
           <BlogCard
             image={CarreraFlex}
-            title="Septiembre 2023"
+            title={t("courseSep")}
             subTitle="Carrera React Flex"
-            category="Carrera | CODERHOUSE"
+            category={t("courseCategoryCarrer")+" | CODERHOUSE"}
           />
           <BlogCard
             image={ReactJs}
-            title="Septiembre 2023"
+            title={t("courseSep")}
             subTitle="React Js"
-            category="Curso | CODERHOUSE"
+            category={t("courseCategoryCourse")+" | CODERHOUSE"}
           />
           <BlogCard
             image={DesarrolloWeb}
-            title="Enero 2023"
+            title={t("courseJan")}
             subTitle="Desarrollo Web"
-            category="Curso | CODERHOUSE"
+            category={t("courseCategoryCourse")+" | CODERHOUSE"}
           />
         </div>
         <div className="px-6">
           <BlogCard
             image={Carrera}
-            title="Septiembre 2023"
+            title={t("courseSep")}
             subTitle="Carrera React"
-            category="Carrera | CODERHOUSE"
+            category={t("courseCategoryCarrer")+" | CODERHOUSE"}
           />
           <BlogCard
             image={JavaScript}
-            title="Junio 2023"
+            title={t("courseJun")}
             subTitle="Javascript"
-            category="Curso | CODERHOUSE"
+            category={t("courseCategoryCourse")+" | CODERHOUSE"}
           />
           <BlogCard
             image={Python}
-            title="Febrero 2023"
+            title={t("courseFeb")}
             subTitle="Python"
-            category="Curso | UNLU (universidad nacional de lujan)"
+            category={t("courseCategoryCourse")+" | UNLU (universidad nacional de lujan)"}
           />
         </div>
       </div>
