@@ -3,7 +3,7 @@ import DiscoverArg from "./work/discoverArg.png"
 import ExtremeShop from "./work/ExtremeShop.png"
 import PlanesPareja from "./work/PlanesenPareja.png"
 import Eficap from "./work/eficap.png"
-// import VayAdmin from "./work/VayAdministracion.png"
+import PalAlma from "./work/palAlma.png"
 import CarreraFlex from "./certificados/carreraReactFlex.png"
 import Carrera from "./certificados/FrontEndDeveloper.png"
 import DesarrolloWeb from "./certificados/DesarrolloWeb.png"
@@ -18,6 +18,7 @@ export {
     ExtremeShop,
     PlanesPareja,
     Eficap,
+    PalAlma,
     CarreraFlex,
     Carrera,
     DesarrolloWeb,
