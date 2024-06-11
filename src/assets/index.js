@@ -4,6 +4,7 @@ import ExtremeShop from "./work/ExtremeShop.png"
 import PlanesPareja from "./work/PlanesenPareja.png"
 import Eficap from "./work/eficap.png"
 import PalAlma from "./work/palAlma.png"
+import BioTrust from "./work/biotrust.png"
 import CarreraFlex from "./certificados/carreraReactFlex.png"
 import Carrera from "./certificados/FrontEndDeveloper.png"
 import DesarrolloWeb from "./certificados/DesarrolloWeb.png"
@@ -19,6 +20,7 @@ export {
     PlanesPareja,
     Eficap,
     PalAlma,
+    BioTrust,
     CarreraFlex,
     Carrera,
     DesarrolloWeb,
