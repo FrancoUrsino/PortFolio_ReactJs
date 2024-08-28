@@ -10,13 +10,14 @@ const Sidenav = () => {
       <SidenavTitle title={t("menuTitle1")} subTitle={t("menuSubTitle1")} />
       <ul>
         <li className="sidenavLi"><Link to={"https://www.linkedin.com/in/francoursino/"} target="_blank">Linkedin</Link></li>
-        <li className="sidenavLi"><Link to={"https://www.facebook.com/profile.php?id=61550736414708"} target="_blank">Facebook</Link></li>
-        <li className="sidenavLi"><Link to={"https://www.instagram.com/frankito.eze/"} target="_blank">Instagram</Link></li>
         <li className="sidenavLi"><Link to={"https://github.com/FrancoUrsino"} target="_blank">GitHub</Link></li>
       </ul>
       <SidenavTitle title={t("menuTitle2")} subTitle={t("menuSubTitle2")} />
       <ul>
-      <li className="sidenavLi"><Link to={""} target="_blank">Vay Administración</Link></li>
+      <li className="sidenavLi"><Link to={""} target="_blank">CineFilm</Link></li>
+      <li className="sidenavLi"><Link to={""} target="_blank">BioTrust</Link></li>
+      <li className="sidenavLi"><Link to={""} target="_blank">Pa'l Alma</Link></li>
+      <li className="sidenavLi"><Link to={""} target="_blank">Ming Art Ink</Link></li>
       <li className="sidenavLi"><Link to={"https://github.com/FrancoUrsino/eficap"} target="_blank">Eficap</Link></li>
       <li className="sidenavLi"><Link to={"https://github.com/FrancoUrsino/ProyectoFinal_Ursino"} target="_blank">Extreme Combat Shop</Link></li>
       <li className="sidenavLi"><Link to={"https://github.com/FrancoUrsino/PF-js_URSINO"} target="_blank">Discover Arg</Link></li>

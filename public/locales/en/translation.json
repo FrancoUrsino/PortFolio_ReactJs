@@ -24,17 +24,18 @@
 
   "7cert": "7 certificates",
   "laborExper": "+6 years of laboral experience",
-  "finalProjects": "5 finished projects",
+  "finalProjects": "+10 finished projects",
 
   "webD": "Web Development",
   "webDesing": "Web Desing",
   "webDText": "I currently make websites whit Next.js using good practices and inclusive syntax for better performance",
-  "webDesingText": "I think about how everything can be comfortable for the user experience and with a nice interface",
+  "webDesingText": "I create responsive designs that adapt fluidly to any device to provide the user with a good experience",
   "seoText": "The SEO of the websites I create, I check that everything is correct and in the most efficient way possible to position these websites at the top",
 
   
   "certificateTitle": "Completed",
   "certificateSubTitle": "Courses",
+  "courseNov": "November 2023",
   "courseSep": "September 2023",
   "courseFeb": "Febrary 2023",
   "courseJan": "January 2023",
@@ -66,6 +67,7 @@
   "projectTitle": "Recent",
   "projectSubTitle": "Projects",
   "categoryProjects": "Desing & Developer",
+  "categoryProjects2": "Developer",
 
   "laboralExpTitle": "Laboral Experience",
   "bankEnt": " (Bank entity)",

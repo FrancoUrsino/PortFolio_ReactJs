@@ -24,16 +24,17 @@
 
   "7cert": "7 certificados",
   "laborExper": "+6 años de experiencia laboral",
-  "finalProjects": "5 proyectos finalizados",
+  "finalProjects": "+10 proyectos finalizados",
 
   "webD": "Desarrollo Web",
   "webDesing": "Diseño Web",
   "webDText": "Actualmente realizo los sitios webs con Next.js, hago uso de buenas prácticas y sintaxsis inclusiva para un mejor rendimiento",
-  "webDesingText": "Si bien no tengo certificados de diseño, pienso en cómo puede al usuario quedarle todo cómodo y con una bonita interfaz",
+  "webDesingText": "Realizo diseños responsivos que se adaptan de manera fluida a cualquier dispositivo para brindarle al usuario una buena experiencia",
   "seoText": "Lo que es el seo de las webs que realizo, chequeo que todo esté correcto y de la manera más eficiente posible para posicionar estas webs en lo más alto",
 
   "certificateTitle": "Certificados",
   "certificateSubTitle": "Obtenidos",
+  "courseNov": "Noviembre 2023",
   "courseSep": "Septiembre 2023",
   "courseFeb": "Febrero 2023",
   "courseJan": "Enero 2023",
@@ -65,6 +66,7 @@
   "projectTitle": "Proyectos",
   "projectSubTitle": "Recientes",
   "categoryProjects": "Diseño y Programación",
+  "categoryProjects2": "Programación",
 
   "laboralExpTitle": "Experiencia laboral",
   "bankEnt": " (Entidad Bancaria)",
@@ -87,7 +89,7 @@
   "lang": "Idiomas",
   "en": "Ingles",
   "es": "Español",
-  "softSkill1":" Trabao en equipo",
+  "softSkill1":" Trabajo en equipo",
   "softSkill2":" Resolución de problemas",
   "softSkill3":" Responsibilidad",
   "softSkill4":" Liderazgo",

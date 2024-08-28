@@ -1,8 +1,8 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { BsCloudLightningFill, BsFacebook } from "react-icons/bs";
+import { BsCloudLightningFill } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { FiInstagram, FiMail } from "react-icons/fi";
+import { FiMail } from "react-icons/fi";
 import CV from '../../assets/FrancoUrsinoCV.pdf';
 import { me } from "../../assets/index";
 import { Link } from "react-router-dom";
@@ -41,12 +41,6 @@ const Left = () => {
             </Link>
             <Link className="hover:text-designColor duration-300 cursor-pointer text-xl"  to="https://www.linkedin.com/in/francoursino/" target="blank">
               <FaLinkedin />
-            </Link>
-            <Link className="hover:text-designColor duration-300 cursor-pointer text-xl"  to="https://www.facebook.com/profile.php?id=61550736414708" target="blank">
-              <BsFacebook />
-            </Link>
-            <Link className="hover:text-designColor duration-300 cursor-pointer text-xl"  to="https://www.instagram.com/frankito.eze/" target="blank">
-              <FiInstagram />
             </Link>
             <Link className="hover:text-designColor duration-300 cursor-pointer text-xl"  to="mailto:francooursinoo@gmail.com" target="blank">
               <FiMail />
