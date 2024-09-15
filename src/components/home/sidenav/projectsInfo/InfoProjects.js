@@ -2,7 +2,9 @@ import React from 'react'
 
 function InfoProjects() {
   return (
-    <div>InfoProjects</div>
+    <section>
+      
+    </section>
   )
 }
 

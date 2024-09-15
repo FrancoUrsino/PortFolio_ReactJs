@@ -26,16 +26,16 @@ const {t} = useTranslation();
             <span className="aboutRightLiSpan">{t("freelance")}</span>
             {t("freeAvail")}
           </li>
-          <li className="aboutRightLi">
-            <span className="aboutRightLiSpan">{t("direction")}</span>
+          <li className="aboutRightLi lg:text-xs">
+            <span className="aboutRightLiSpan text-base">{t("direction")}</span>
             Caballito | Buenos Aires
           </li>
-          <li className="aboutRightLi">
-            <span className="aboutRightLiSpan">{t("phone")}</span>
-            +54 1138460917
+          <li className="aboutRightLi lg:text-xs">
+            <span className="aboutRightLiSpan text-base">{t("phone")}</span>
+            +541138460917
           </li>
-          <li className="aboutRightLi">
-            <span className="aboutRightLiSpan">{t("mail")}</span>
+          <li className="aboutRightLi lg:text-xs">
+            <span className="aboutRightLiSpan text-base">{t("mail")}</span>
             francooursinoo@gmail.com
           </li>
         </ul>
