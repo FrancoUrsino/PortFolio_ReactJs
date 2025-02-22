@@ -7,6 +7,8 @@ import PalAlma from "./work/palAlma.png"
 import BioTrust from "./work/biotrust.png"
 import MingArtInk from "./work/mingArtInk.png"
 import CineFilm from "./work/cineFilm.png"
+import InterirorDecoZen from "./work/interiordeco.png"
+import times  from "./work/times.png"
 import CarreraFlex from "./certificados/carreraReactFlex.png"
 import Carrera from "./certificados/FrontEndDeveloper.png"
 import DesarrolloWeb from "./certificados/DesarrolloWeb.png"
@@ -27,6 +29,8 @@ export {
     BioTrust,
     MingArtInk,
     CineFilm,
+    InterirorDecoZen,
+    times,
     CarreraFlex,
     Carrera,
     DesarrolloWeb,

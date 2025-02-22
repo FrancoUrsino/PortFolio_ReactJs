@@ -1,10 +1,10 @@
 import React from "react";
-import { DiscoverArg, ExtremeShop, PlanesPareja, Eficap, PalAlma, BioTrust, MingArtInk, CineFilm } from "../../assets";
+import { DiscoverArg, ExtremeShop, PlanesPareja, Eficap, PalAlma, BioTrust, MingArtInk, CineFilm, InterirorDecoZen, times } from "../../assets";
 import Title from "../home/Title";
 import ProjectsCard from "./ProjectsCard";
 import { useTranslation } from "react-i18next";
-import { FaFlag, FaHtml5, FaCss3Alt, FaSass, FaJs, FaReact, FaNodeJs, FaGitAlt, FaGithub, FaJava, FaDatabase } from "react-icons/fa";
-import { SiFirebase, SiTailwindcss, SiNextdotjs, SiPython, SiBootstrap, SiPostman } from "react-icons/si";
+import { FaHtml5, FaSass, FaJs, FaReact, FaGitAlt, FaNodeJs } from "react-icons/fa";
+import { SiFirebase, SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
 
 
@@ -17,7 +17,17 @@ const Projects = () => {
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 lgl:gap-10">
         <div className="px-6">
           <ProjectsCard
-            url={"https://github.com/FrancoUrsino/CineFilm"}
+            url={"https://github.com/FrancoUrsino/times"}
+            title="Times vr"
+            category={t("categoryProjects")}
+            image={times}
+            technologies={[
+              { name: "Next js", icon: <SiNextdotjs /> },
+              { name: "Tailwind", icon: <SiTailwindcss /> },
+            ]}
+          />
+          <ProjectsCard
+            url={"https://github.com/FrancoUrsino/Cine-Film"}
             title="CineFilm"
             category={t("categoryProjects")}
             image={CineFilm}
@@ -36,6 +46,7 @@ const Projects = () => {
               { name: "Next js", icon: <SiNextdotjs /> },
               { name: "Tailwind", icon: <SiTailwindcss /> },
               { name: "Sass", icon: <FaSass /> },
+              { name: "Git", icon: <FaGitAlt /> },
             ]}
           />
           <ProjectsCard
@@ -63,6 +74,18 @@ const Projects = () => {
           />
         </div>
         <div className="px-6">
+        <ProjectsCard
+            url={"https://github.com/FrancoUrsino/interior-deco-zen"}
+            title="Interior Deco Zen"
+            category={t("categoryProjects")}
+            image={InterirorDecoZen}
+            technologies={[
+              { name: "Next js", icon: <SiNextdotjs /> },
+              { name: "Tailwind", icon: <SiTailwindcss /> },
+              { name: "FireBase", icon: <SiFirebase /> },
+              { name: "Node js", icon: <FaNodeJs /> },
+            ]}
+          />
           <ProjectsCard
             url={"https://github.com/FrancoUrsino/biotrust"}
             title="Biotrust"

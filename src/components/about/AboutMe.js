@@ -16,7 +16,7 @@ const {t} = useTranslation();
         <ul className="flex flex-col gap-1">
           <li className="aboutRightLi">
             <span className="aboutRightLiSpan">{t("age")}</span>
-            23
+            24
           </li>
           <li className="aboutRightLi">
             <span className="aboutRightLiSpan">{t("residence")}</span>
