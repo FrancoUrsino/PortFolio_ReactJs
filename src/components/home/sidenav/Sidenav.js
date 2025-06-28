@@ -1,4 +1,3 @@
-import React from 'react'
 import SidenavTitle from './SidenavTitle';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -14,10 +13,11 @@ const Sidenav = () => {
       </ul>
       <SidenavTitle title={t("menuTitle2")} subTitle={t("menuSubTitle2")} />
       <ul>
-      <li className="sidenavLi"><Link to={""} target="_blank">CineFilm</Link></li>
-      <li className="sidenavLi"><Link to={""} target="_blank">BioTrust</Link></li>
-      <li className="sidenavLi"><Link to={""} target="_blank">Pa'l Alma</Link></li>
-      <li className="sidenavLi"><Link to={""} target="_blank">Ming Art Ink</Link></li>
+      <li className="sidenavLi"><Link to={"https://github.com/FrancoUrsino/interior-deco-zen"} target="_blank">Interior Deco Zen</Link></li>
+      <li className="sidenavLi"><Link to={"https://github.com/FrancoUrsino/Cine-Film"} target="_blank">CineFilm</Link></li>
+      <li className="sidenavLi"><Link to={"https://github.com/FrancoUrsino/biotrust"} target="_blank">BioTrust</Link></li>
+      <li className="sidenavLi"><Link to={"https://github.com/Faradar/Proyecto-Real-PAL-ALMA"} target="_blank">Pa'l Alma</Link></li>
+      <li className="sidenavLi"><Link to={"https://github.com/FrancoUrsino/Ming-ink-art"} target="_blank">Ming Art Ink</Link></li>
       <li className="sidenavLi"><Link to={"https://github.com/FrancoUrsino/eficap"} target="_blank">Eficap</Link></li>
       <li className="sidenavLi"><Link to={"https://github.com/FrancoUrsino/ProyectoFinal_Ursino"} target="_blank">Extreme Combat Shop</Link></li>
       <li className="sidenavLi"><Link to={"https://github.com/FrancoUrsino/PF-js_URSINO"} target="_blank">Discover Arg</Link></li>

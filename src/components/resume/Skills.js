@@ -1,8 +1,8 @@
 import React from "react";
 import { BiCodeAlt } from "react-icons/bi";
 import { IoIosPaper } from "react-icons/io";
-import { FaFlag, FaHtml5, FaCss3Alt, FaSass, FaJs, FaReact, FaNodeJs, FaGitAlt, FaGithub, FaJava, FaDatabase } from "react-icons/fa";
-import { SiFirebase, SiTailwindcss, SiNextdotjs, SiPython, SiBootstrap, SiPostman } from "react-icons/si";
+import { FaFlag, FaHtml5, FaCss3Alt, FaSass, FaJs, FaReact, FaNodeJs, FaGitAlt, FaGithub, FaJava, FaDatabase, FaDocker } from "react-icons/fa";
+import { SiFirebase, SiTailwindcss, SiNextdotjs, SiPython, SiBootstrap, SiPostman, SiMongodb, SiSwagger, SiSpring, SiExpress, SiMariadbfoundation, SiMysql } from "react-icons/si";
 import ResumeTitle from "./ResumeTitle";
 import { useTranslation } from "react-i18next";
 
@@ -34,7 +34,7 @@ const Skills = () => {
             <div className="py-3 border-b-[1px] border-zinc-800">
               <p className="text-base text-textColor -mb-1.5">{t("en")}</p>
               <span className="w-full bg-zinc-600 h-1 inline-flex relative">
-                <span className="w-[30%] h-full absolute top-0 left-0 bg-designColor"></span>
+                <span className="w-[45%] h-full absolute top-0 left-0 bg-designColor"></span>
               </span>
             </div>
             {/* Spanish */}
@@ -147,9 +147,52 @@ const Skills = () => {
             <p className="text-xs text-textColor mt-2">Postman</p>
           </div>
 
+          {/* Postman */}
           <div className="flex flex-col items-center">
             <FaDatabase className="text-6xl text-blue-700" />
             <p className="text-base text-textColor mt-2">SQL</p>
+          </div>
+
+          {/* Docker */}
+          <div className="flex flex-col items-center">
+            <FaDocker className="text-6xl text-blue-400" />
+            <p className="text-base text-textColor mt-2">Docker</p>
+          </div>
+
+          {/* MongoDB */}
+          <div className="flex flex-col items-center">
+            <SiMongodb className="text-6xl text-green-700" />
+            <p className="text-base text-textColor mt-2">MongoDB</p>
+          </div>
+
+          {/* Swagger */}
+          <div className="flex flex-col items-center">
+            <SiSwagger className="text-6xl text-white" />
+            <p className="text-base text-textColor mt-2">Swagger</p>
+          </div>
+
+          {/* Spring */}
+          <div className="flex flex-col items-center">
+            <SiSpring className="text-6xl text-green-500" />
+            <p className="text-base text-textColor mt-2">Spring</p>
+          </div>
+
+          {/* Express */}
+          <div className="flex flex-col items-center">
+            <SiExpress className="text-6xl text-white" />
+            <p className="text-base text-textColor mt-2">Express</p>
+          </div>
+
+          {/* Mariadbfoundation */}
+          <div className="flex flex-col items-center">
+            <SiMariadbfoundation className="text-6xl text-blue-900" />
+            <p className="text-base text-textColor mt-2">MariaDB</p>
+          </div>
+
+          {/* Mysql */}
+          <div className="flex flex-col items-center">
+            <SiMysql className="text-6xl text-[#00758f]" />
+            <p className="text-base text-textColor mt-2">Mysql</p>
           </div>
         </div>
       </div>
